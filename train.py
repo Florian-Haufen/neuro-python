@@ -24,7 +24,7 @@ val_ds = keras.utils.image_dataset_from_directory(
 	image_size=(img_height, img_width),
 	batch_size=batch_size)
 
-model = keras.models.load_model(r"C:\Users\cybersport\Desktop\Utkin IS 23.9\tensorflow_1\fruits_model")
+model = keras.models.load_model(r"C:\Users\cybersport\Desktop\Utkin IS 23.9\tensorflow_1\model")
 
 class_names = train_ds.class_names
 

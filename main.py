@@ -104,4 +104,4 @@ print(f"На изображении скорее всего {class_names[np.argm
 
 img.show()
 
-model.save("fruits_model", save_format="h5")
+model.save("model", save_format="h5")
